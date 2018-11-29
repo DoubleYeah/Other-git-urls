@@ -25,6 +25,7 @@
                         100px 400px white,
                         300px 400px white;
             animation: beforemove 3s infinite;
+animation-timing-function:ease-in-out;
      }
      .demo::after{
                  content:"";
@@ -40,7 +41,7 @@
                              200px 300px black,
                              400px 300px black;
                  animation: aftermove 3s infinite;
-                 animation-delay:2.9s;-
+animation-timing-function:ease-in-out;
 
                       }
 
